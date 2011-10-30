@@ -1,0 +1,27 @@
+Package: TextRegression
+Type: Package
+Title: Predict continuous valued outputs associated with
+    text documents.
+Version: 0.1-1
+Date: 2011-10-30
+Author: John Myles White
+Maintainer: John Myles White <jmw@johnmyleswhite.com>
+Description: Predict continuous valued outputs associated
+    with text documents. The input corpus of text documents
+    is transformed into a document-term matrix (DTM) and
+    then a regularized linear regression is fit that uses
+    this matrix as predictors to predict the continuous
+    valued output. The corpus's terms, coefficients for all
+    terms and an estimate of the model's predictive power
+    are returned in a list.
+License: Artistic-2.0
+LazyLoad: yes
+Depends:
+    tm,
+    Matrix,
+    glmnet,
+    plyr
+Collate:
+    'dtm.to.Matrix.R'
+    'help.R'
+    'regress.text.R'
