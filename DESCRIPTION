@@ -2,8 +2,8 @@ Package: TextRegression
 Type: Package
 Title: Predict continuous valued outputs associated with
     text documents.
-Version: 0.1-1
-Date: 2011-10-30
+Version: 0.1-3
+Date: 2012-05-12
 Author: John Myles White
 Maintainer: John Myles White <jmw@johnmyleswhite.com>
 Description: Predict continuous valued outputs associated
@@ -16,6 +16,7 @@ Description: Predict continuous valued outputs associated
     are returned in a list.
 License: Artistic-2.0
 LazyLoad: yes
+Suggests: testthat
 Depends:
     tm,
     Matrix,

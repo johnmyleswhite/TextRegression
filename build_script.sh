@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm TextRegression__*.tar.gz
+rm TextRegression_*.tar.gz
 rm -rf TextRegression_.Rcheck
 R CMD BUILD .
 R CMD CHECK TextRegression_*.tar.gz

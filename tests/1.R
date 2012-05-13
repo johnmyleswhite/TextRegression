@@ -26,7 +26,7 @@ x <- dtm.to.Matrix(dtm)
 
 for (i in 1:3)
 {
-	set.seed(i)
+  set.seed(i)
 
   beta <- rnorm(ncol(x), 0, 10)
   beta[sample(1:ncol(x), ncol(x) - 1, replace = FALSE)] <- 0

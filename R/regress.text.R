@@ -72,6 +72,8 @@ regress.text <- function(text,
   
   x <- dtm.to.Matrix(dtm)
   
+  y <- as.vector(y)
+  
   regularized.fit <- glmnet(x, y)
   
   lambdas <- regularized.fit$lambda
