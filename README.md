@@ -1,3 +1,7 @@
+# DEPRECATION NOTICE
+
+This package is abandoned. No maintenance work will be done on it.
+
 # Introduction
 This repository contains the development version of the TextRegression
 package, which makes it easy to predict continuous outputs using text inputs.
